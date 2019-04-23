@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+    <title>Sense Hat</title>
+  </head>
+  <body>
+  
+    <h1>SenseHat Data</h1>
+	<div class="input-group">
+		<input type="text" class="form-control" id="urlField" placeholder="URL address" aria-label="URL" />
+		<input type="button" class="btn btn-primary" id="conButton" value="Connect" />
+	</div>
+	<div class="container">
+		<table class="table table-hover" id="dataTable">
+			<thead>
+	
+			</thead>
+			<tbody>
+			
+			</tbody>
+		</table>
+	</div>
+	<h1>SenseHat Color</h1>
+	<div class="input-group mb-3">
+		<div class="input-group-prepend">
+			<span class="input-group-text" id="basic-addon1">R=</span>
+		</div>
+		<input type="text" class="form-control" aria-describedby="basic-addon1" id="rField" value="255">
+		<div class="input-group-prepend">
+			<span class="input-group-text" id="basic-addon1">G=</span>
+		</div>
+		<input type="text" class="form-control" aria-describedby="basic-addon1" id="gField" value="255">
+		<div class="input-group-prepend">
+			<span class="input-group-text" id="basic-addon1">B=</span>
+		</div>
+		<input type="text" class="form-control" aria-describedby="basic-addon1" id="bField" value="255">
+		<input type="text" class="form-control" aria-describedby="basic-addon1" id="colorField">
+		<input type="button" class="btn btn-primary" id="rgbButton" value="Set" />
+	</div>
+	
+    
+  </body>
+</html>
